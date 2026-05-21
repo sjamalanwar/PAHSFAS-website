@@ -1,0 +1,47 @@
+[
+  {
+    "package": "O Level",
+    "details": "Per Subject",
+    "fee": "Rs. 5,000"
+  },
+  {
+    "package": "AS Level",
+    "details": "Per Subject",
+    "fee": "Rs. 7,000"
+  },
+  {
+    "package": "A2 Level",
+    "details": "Per Subject",
+    "fee": "Rs. 10,000"
+  },
+  {
+    "package": "9th Class",
+    "details": "Monthly package",
+    "fee": "Editable"
+  },
+  {
+    "package": "10th Class",
+    "details": "Monthly package",
+    "fee": "Editable"
+  },
+  {
+    "package": "Pre First Year",
+    "details": "Monthly package",
+    "fee": "Editable"
+  },
+  {
+    "package": "First Year",
+    "details": "Monthly package",
+    "fee": "Editable"
+  },
+  {
+    "package": "BS / M.Phil / PhD Support",
+    "details": "Subject-wise guidance",
+    "fee": "Editable"
+  },
+  {
+    "package": "PMS / CSS Foundation",
+    "details": "Competitive exam preparation",
+    "fee": "Editable"
+  }
+]

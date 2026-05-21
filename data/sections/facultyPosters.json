@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Dr. Syed Jamal Anwar",
+    "subject": "Physics Faculty",
+    "image": "assets/images/faculty-posters/dr_syed_jamal_anwar_poster.jpg"
+  },
+  {
+    "title": "Prof. M. Tayyab Qadeer",
+    "subject": "Physics",
+    "image": "assets/images/faculty-posters/prof_m_tayyab_qadeer_poster.jpg"
+  },
+  {
+    "title": "Dr. Muhammad Mubeen Butt",
+    "subject": "Chemistry",
+    "image": "assets/images/faculty-posters/dr_muhammad_mubeen_butt_poster.jpg"
+  },
+  {
+    "title": "Prof. Nowaiz Iqbal",
+    "subject": "Intermediate & Undergraduate Chemistry",
+    "image": "assets/images/faculty-posters/prof_nowaiz_iqbal_poster.jpg"
+  },
+  {
+    "title": "Prof. Khurram Shahzad",
+    "subject": "Zoology",
+    "image": "assets/images/faculty-posters/prof_khurram_shahzad_poster.jpg"
+  },
+  {
+    "title": "Prof. Zubair Sharif",
+    "subject": "M.Sc. Botany",
+    "image": "assets/images/faculty-posters/prof_zubair_sharif_poster.jpg"
+  },
+  {
+    "title": "Prof. Iftikhar Ali Shah",
+    "subject": "Mathematics",
+    "image": "assets/images/faculty-posters/prof_iftikhar_ali_shah_poster.jpg"
+  },
+  {
+    "title": "Prof. Ali Raza",
+    "subject": "Mathematics / Computer",
+    "image": "assets/images/faculty-posters/prof_ali_raza_poster.jpg"
+  },
+  {
+    "title": "Prof. Irfan Ullah",
+    "subject": "Programming",
+    "image": "assets/images/faculty-posters/prof_irfan_ullah_poster.jpg"
+  },
+  {
+    "title": "Qasirah Syed",
+    "subject": "English",
+    "image": "assets/images/faculty-posters/qasirah_syed_poster.jpg"
+  },
+  {
+    "title": "Prof. Dr. Said Ameer Khokhar",
+    "subject": "Founder & Director",
+    "image": "assets/images/faculty-posters/prof_dr_said_ameer_khokhar_poster.jpg"
+  },
+  {
+    "title": "Prof. Bilawal Hussain",
+    "subject": "Urdu",
+    "image": "assets/images/faculty-posters/prof_bilawal_hussain_poster.jpg"
+  },
+  {
+    "title": "Ali Tabasam Butt",
+    "subject": "Arabic / Islamiat / Tarjmat-ul-Quran",
+    "image": "assets/images/faculty-posters/ali_tabasam_butt_poster.jpg"
+  },
+  {
+    "title": "Prof. Azhar",
+    "subject": "Arabic / Islamiat",
+    "image": "assets/images/faculty-posters/prof_azhar_poster.jpg"
+  },
+  {
+    "title": "Dr. Syed Wajahat Afzal",
+    "subject": "Founder & Owner",
+    "image": "assets/images/faculty-posters/dr_syed_wajahat_afzal_poster.jpg"
+  },
+  {
+    "title": "Prof. Sajad Cheema",
+    "subject": "English — M.A English, 35 years teaching experience",
+    "image": "assets/images/faculty-posters/prof_sajad_cheema_uploaded_poster.jpg"
+  },
+  {
+    "title": "Prof. Sajad Cheema 35 Years",
+    "subject": "English — Updated academy poster",
+    "image": "assets/images/faculty-posters/prof_sajad_cheema_35_years_poster.jpg"
+  },
+  {
+    "title": "Prof. Sheraz Butt",
+    "subject": "Commerce — M.A Commerce, 22 years teaching experience",
+    "image": "assets/images/faculty-posters/prof_sheraz_butt_poster.jpg"
+  }
+]

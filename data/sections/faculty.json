@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Dr. Syed Jamal Anwar",
+    "subject": "Physics Faculty",
+    "role": "Chairman & Founder",
+    "photo": "assets/images/faculty/uploaded_04_dr_syed_jamal_anwar.jpg",
+    "details": "Physics • Mathematics • O/A Level",
+    "poster": "assets/images/faculty-posters/dr_syed_jamal_anwar_poster.jpg"
+  },
+  {
+    "name": "Prof. M. Tayyab Qadeer",
+    "subject": "Physics",
+    "role": "Founder / Faculty Member",
+    "photo": "assets/images/faculty/uploaded_08_prof_m_tayyab_qadeer.jpg",
+    "details": "Physics • Quantum Computing • Academic Guidance",
+    "poster": "assets/images/faculty-posters/prof_m_tayyab_qadeer_poster.jpg"
+  },
+  {
+    "name": "Dr. Muhammad Mubeen Butt",
+    "subject": "Chemistry",
+    "role": "Chemistry Faculty",
+    "photo": "assets/images/faculty/uploaded_05_dr_muhammad_mubeen_butt.jpg",
+    "details": "Chemistry • Board & Higher Classes",
+    "poster": "assets/images/faculty-posters/dr_muhammad_mubeen_butt_poster.jpg"
+  },
+  {
+    "name": "Prof. Nowaiz Iqbal",
+    "subject": "Intermediate & Undergraduate Chemistry",
+    "role": "Chemistry Faculty",
+    "photo": "assets/images/faculty/uploaded_03_prof_nowaiz_iqbal.jpg",
+    "details": "Intermediate & Undergraduate Chemistry",
+    "poster": "assets/images/faculty-posters/prof_nowaiz_iqbal_poster.jpg"
+  },
+  {
+    "name": "Prof. Khurram Shahzad",
+    "subject": "Zoology",
+    "role": "Biology Faculty",
+    "photo": "assets/images/faculty/uploaded_06_prof_khurram_shahzad.jpg",
+    "details": "Zoology • Biology • Board Classes",
+    "poster": "assets/images/faculty-posters/prof_khurram_shahzad_poster.jpg"
+  },
+  {
+    "name": "Prof. Zubair Sharif",
+    "subject": "M.Sc. Botany",
+    "role": "Biology Faculty",
+    "photo": "assets/images/faculty/uploaded_01_prof_zubair_sharif.jpg",
+    "details": "M.Sc. Botany • Intermediate & Graduate Classes",
+    "poster": "assets/images/faculty-posters/prof_zubair_sharif_poster.jpg"
+  },
+  {
+    "name": "Prof. Iftikhar Ali Shah",
+    "subject": "Mathematics",
+    "role": "Mathematics Faculty",
+    "photo": "assets/images/faculty/uploaded_07_prof_iftikhar_ali_shah.jpg",
+    "details": "Mathematics • Conceptual Teaching",
+    "poster": "assets/images/faculty-posters/prof_iftikhar_ali_shah_poster.jpg"
+  },
+  {
+    "name": "Prof. Ali Raza",
+    "subject": "Mathematics / Computer",
+    "role": "Faculty Member",
+    "photo": "assets/images/faculty/ali_raza.jpg",
+    "details": "Faculty member for mathematics and computer-related academic support.",
+    "poster": "assets/images/faculty-posters/prof_ali_raza_poster.jpg"
+  },
+  {
+    "name": "Prof. Irfan Ullah",
+    "subject": "Programming",
+    "role": "Computer Science Faculty",
+    "photo": "assets/images/faculty/uploaded_02_prof_irfan_ullah.jpg",
+    "details": "Programming • Database • Web Development",
+    "poster": "assets/images/faculty-posters/prof_irfan_ullah_poster.jpg"
+  },
+  {
+    "name": "Qasirah Syed",
+    "subject": "English",
+    "role": "Faculty Member",
+    "photo": "assets/images/faculty/qasirah_syed.jpg",
+    "details": "English faculty member for language, grammar and writing improvement.",
+    "poster": "assets/images/faculty-posters/qasirah_syed_poster.jpg"
+  },
+  {
+    "name": "Prof. Dr. Said Ameer Khokhar",
+    "subject": "Founder & Director",
+    "role": "Founder / Director",
+    "photo": "assets/images/faculty/uploaded_09_prof_dr_said_ameer_khokhar.jpg",
+    "details": "PhD Urdu, author, educationist and experienced teacher. Known for a humble teaching style and strong academic contribution.",
+    "poster": "assets/images/faculty-posters/prof_dr_said_ameer_khokhar_poster.jpg"
+  },
+  {
+    "name": "Prof. Bilawal Hussain",
+    "subject": "Urdu",
+    "role": "Urdu Faculty",
+    "photo": "assets/images/faculty/uploaded_10_prof_bilawal_hussain.jpg",
+    "details": "Urdu • Academic Writing • Literature",
+    "poster": "assets/images/faculty-posters/prof_bilawal_hussain_poster.jpg"
+  },
+  {
+    "name": "Ali Tabasam Butt",
+    "subject": "Arabic / Islamiat / Tarjmat-ul-Quran",
+    "role": "Faculty Member",
+    "photo": "assets/images/faculty/ali_tabasam_butt.jpg",
+    "details": "Faculty member for Arabic, Islamiat and Tarjmat-ul-Quran.",
+    "poster": "assets/images/faculty-posters/ali_tabasam_butt_poster.jpg"
+  },
+  {
+    "name": "Prof. Azhar",
+    "subject": "Arabic / Islamiat",
+    "role": "Faculty Member",
+    "photo": "assets/images/faculty/prof_azhar.jpg",
+    "details": "Arabic and Islamiat faculty member for religious and language studies.",
+    "poster": "assets/images/faculty-posters/prof_azhar_poster.jpg"
+  },
+  {
+    "name": "Dr. Syed Wajahat Afzal",
+    "subject": "Founder & Owner",
+    "role": "Faculty",
+    "photo": "assets/images/faculty/uploaded_11_dr_syed_wajahat_afzal.jpg",
+    "details": "Political Science • History • Pakistan Studies",
+    "poster": "assets/images/faculty-posters/dr_syed_wajahat_afzal_poster.jpg"
+  },
+  {
+    "name": "Prof. Sajad Cheema",
+    "subject": "English",
+    "role": "Faculty Member",
+    "photo": "assets/images/faculty/prof_sajad_cheema.jpg",
+    "details": "M.A English with 35 years of teaching experience. Renowned English professor with expertise in English literature, linguistics, communication skills and academic mentorship.",
+    "poster": "assets/images/faculty-posters/prof_sajad_cheema_uploaded_poster.jpg"
+  },
+  {
+    "name": "Prof. Sheraz Butt",
+    "subject": "Commerce / I.Com / Business Studies",
+    "role": "Faculty Member",
+    "photo": "assets/images/faculty/prof_sheraz_butt.jpg",
+    "details": "M.A Commerce with 22 years of teaching experience. Experienced commerce teacher for accounting, business studies, economics and I.Com level guidance.",
+    "poster": "assets/images/faculty-posters/prof_sheraz_butt_poster.jpg"
+  }
+]

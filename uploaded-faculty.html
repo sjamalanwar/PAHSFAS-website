@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faculty — Prof Anwar Hussain Syed Fine Academy of Sciences</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="Logo"><span>Prof Anwar Hussain Syed Fine Academy of Sciences</span></a>
+    <nav><a href="index.html">Home</a><a href="admin.html">Update Panel</a></nav>
+  </header>
+  <main class="section">
+    <div class="section-title"><p>All Faculty</p><h2>Faculty Members and Posters</h2></div>
+    <div class="faculty-list" id="facultyList"></div>
+    <div class="section-title" style="margin-top:50px"><p>Posters</p><h2>Faculty Posters</h2></div>
+    <div class="grid poster-grid" id="posterList"></div>
+  </main>
+  <script src="data/site-data.js"></script>
+  <script>
+    const esc = (v) => String(v ?? "").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+    const data = window.AcademyData || {};
+    document.getElementById("facultyList").innerHTML = (data.faculty || []).map(f => `
+      <article class="faculty-card">
+        <img src="${esc(f.photo)}" alt="${esc(f.name)}">
+        <div><h3>${esc(f.name)}</h3><p class="subject">${esc(f.subject)}</p><p class="role">${esc(f.role)}</p><p>${esc(f.details)}</p></div>
+      </article>`).join("");
+    document.getElementById("posterList").innerHTML = (data.facultyPosters || []).map(p => `
+      <article class="poster-card"><img src="${esc(p.image)}" alt="${esc(p.title)}"><h3>${esc(p.title)}</h3><p>${esc(p.subject)}</p></article>`).join("");
+  </script>
+</body>
+</html>

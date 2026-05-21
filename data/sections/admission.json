@@ -1,0 +1,17 @@
+{
+  "status": "Open",
+  "requirements": [
+    "Student name",
+    "Father name",
+    "Class",
+    "Subject selection",
+    "Contact number",
+    "Previous school/college"
+  ],
+  "process": [
+    "Visit academy office",
+    "Select course or package",
+    "Fill admission form",
+    "Receive fee receipt and class guidance"
+  ]
+}

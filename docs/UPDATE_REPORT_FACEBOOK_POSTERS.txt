@@ -1,0 +1,11 @@
+Website updated on 2026-05-21 16:41
+
+Added:
+- Facebook Page section on main website
+- Editable Facebook data in data/site-data.js and admin.html
+- Posters page: posters.html
+- 4 uploaded posters added to Gallery/Posters
+
+Important:
+The Facebook URL is set to https://www.facebook.com/ as a placeholder.
+Open admin.html, go to 'social', and replace the URL with your official Facebook page link.

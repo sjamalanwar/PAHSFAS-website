@@ -1,0 +1,86 @@
+[
+  {
+    "level": "School",
+    "title": "9th Class Science Group",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Computer",
+      "Mathematics",
+      "English",
+      "Urdu",
+      "Islamiat",
+      "Tarjmatul Quran"
+    ]
+  },
+  {
+    "level": "School",
+    "title": "10th Class Science Group",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Computer",
+      "Mathematics",
+      "English",
+      "Urdu",
+      "Islamiat",
+      "Tarjmatul Quran"
+    ]
+  },
+  {
+    "level": "College",
+    "title": "Pre First Year",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Mathematics",
+      "English"
+    ]
+  },
+  {
+    "level": "College",
+    "title": "First Year / Second Year",
+    "subjects": [
+      "F.Sc Pre-Medical",
+      "F.Sc Pre-Engineering",
+      "ICS",
+      "I.Com"
+    ]
+  },
+  {
+    "level": "International",
+    "title": "O Level / A Level",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Computer Science",
+      "Mathematics",
+      "English"
+    ]
+  },
+  {
+    "level": "Higher Studies",
+    "title": "BS / M.Phil / PhD Support",
+    "subjects": [
+      "Physics",
+      "Quantum Computing",
+      "Research Guidance",
+      "Mathematics"
+    ]
+  },
+  {
+    "level": "Competitive",
+    "title": "PMS / CSS Foundation",
+    "subjects": [
+      "English",
+      "Current Affairs",
+      "Pakistan Studies",
+      "Islamic Studies",
+      "General Ability"
+    ]
+  }
+]

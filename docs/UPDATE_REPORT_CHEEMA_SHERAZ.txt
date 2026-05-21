@@ -1,0 +1,24 @@
+Website updated on 2026-05-21 16:37
+
+Added:
+- Prof. Sajad Cheema in faculty
+  - M.A English
+  - 35 years teaching experience
+  - Photo added
+  - Uploaded poster added
+  - New updated poster generated
+- Prof. Sheraz Butt in faculty
+  - M.A Commerce
+  - 22 years teaching experience
+  - Faculty photo placeholder generated
+  - Faculty poster generated
+- Chief of Academy photo replaced with uploaded Prof. Anwar Hussain Syed picture
+- Chief biography added
+- Admission/promotional posters added to gallery
+- Faculty posters page updated
+
+Main files:
+- index.html
+- uploaded-faculty.html
+- admin.html
+- data/site-data.js

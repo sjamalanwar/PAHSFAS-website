@@ -1,0 +1,15 @@
+Updated with uploaded faculty file.
+
+Imported faculty:
+- Prof. Zubair Sharif | Biology Faculty | M.Sc. Botany | photo: yes
+- Prof. Irfan Ullah | Computer Science Faculty | Programming | photo: yes
+- Prof. Nowaiz Iqbal | Chemistry Faculty | Intermediate & Undergraduate Chemistry | photo: yes
+- Dr. Syed Jamal Anwar | Chairman & Founder | Physics Faculty | photo: yes
+- Dr. Muhammad Mubeen Butt | Chemistry Faculty | Chemistry | photo: yes
+- Prof. Khurram Shahzad | Biology Faculty | Zoology | photo: yes
+- Prof. Iftikhar Ali Shah | Mathematics Faculty | Mathematics | photo: yes
+- Prof. M. Tayyab Qadeer | Physics Faculty | Physics | photo: yes
+- Prof. Dr. Said Ameer Khokhar | Urdu Faculty | Founder & Director | photo: yes
+- Prof. Bilawal Hussain | Urdu Faculty | Urdu | photo: yes
+- Dr. Syed Wajahat Afzal | Faculty | Founder & Owner | photo: yes
+Note: The uploaded DOCX file was not a valid readable Word document, so no extra Word content was imported from it.

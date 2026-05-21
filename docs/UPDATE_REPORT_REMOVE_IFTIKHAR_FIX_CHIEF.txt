@@ -1,0 +1,11 @@
+Website updated on 2026-05-21 16:48
+
+Done:
+- Removed Prof. Iftikhar Cheema from faculty list.
+- Removed Prof. Iftikhar Cheema from faculty posters if present.
+- Fixed Chief of Academy photograph display so the full image appears without cutting/cropping.
+
+Faculty count before: 18
+Faculty count after: 17
+Faculty poster count before: 19
+Faculty poster count after: 18
