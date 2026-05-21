@@ -51,3 +51,9 @@ Daily update after setup:
 1. Edit files (or use admin.html to generate updated data/site-data.js).
 2. Commit and push to main branch.
 3. Wait about 1-2 minutes; site is updated automatically.
+
+One-click update option:
+1. Open this folder.
+2. Double-click update-website.bat.
+3. It will auto add, commit, and push your latest changes.
+4. Wait 1-2 minutes, then refresh the live website.
