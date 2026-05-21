@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visiting Card - PAHSFAS</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .actions{max-width:1200px;margin:12px auto;display:flex;gap:10px;justify-content:flex-end}
+    .card-wrap{max-width:1200px;margin:20px auto;background:#f7f2e2;border:2px solid #b8892f;border-radius:12px;overflow:hidden}
+    .top{display:grid;grid-template-columns:280px 1fr;gap:20px;padding:22px}
+    .logo{display:flex;align-items:center;justify-content:center}
+    .logo img{width:250px;max-width:100%}
+    .title h1{font-size:72px;line-height:0.95;margin:0;color:#04234f;letter-spacing:1px}
+    .title h2{font-size:62px;line-height:0.95;margin:8px 0 0 0;color:#b07a1e;letter-spacing:1px}
+    .title p{font-size:54px;color:#0c2a56;margin:28px 0 0 0;font-style:italic;font-family:Georgia,serif}
+    .contact{display:grid;grid-template-columns:1fr 1.3fr;gap:0;background:#07244d;color:#fff;border-top:3px solid #c79a3c}
+    .contact-box{padding:26px;border-right:2px solid #c79a3c}
+    .contact-box:last-child{border-right:none}
+    .contact h3{margin:0 0 10px 0;font-size:44px;color:#f1c266}
+    .contact p{margin:7px 0;font-size:44px;font-weight:700}
+    .bottom{padding:14px 20px;text-align:center;color:#10274a;font-size:46px;font-style:italic;font-family:Georgia,serif}
+    @media (max-width:900px){.top{grid-template-columns:1fr}.title h1{font-size:48px}.title h2{font-size:40px}.title p{font-size:34px}.contact{grid-template-columns:1fr}.contact-box{border-right:none;border-bottom:2px solid #c79a3c}.contact p,.contact h3,.bottom{font-size:30px}}
+    @media print {.actions,.topbar,footer{display:none}.card-wrap{border:none;margin:0}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="Academy Logo"><span>Prof Anwar Hussain Syed Fine Academy of Sciences</span></a>
+  </header>
+  <div class="actions">
+    <a class="btn" href="index.html">Back to Website</a>
+    <button class="btn primary" onclick="window.print()">Print Card</button>
+  </div>
+
+  <main class="card-wrap">
+    <section class="top">
+      <div class="logo"><img src="assets/images/logo.png" alt="PAHSFAS Logo"></div>
+      <div class="title">
+        <h1>PROF ANWAR HUSSAIN SYED</h1>
+        <h2>FINE ACADEMY OF SCIENCES</h2>
+        <p>Building Minds, Shaping Futures</p>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-box">
+        <h3>CONTACT</h3>
+        <p>0333-5439711</p>
+        <p>0346-6855887</p>
+        <p>0301-3062698</p>
+      </div>
+      <div class="contact-box">
+        <h3>ADDRESS</h3>
+        <p>Gali number 3, Khursheed Colony</p>
+        <p>in front of Zamindar Graduate College Gujrat,</p>
+        <p>near Alhassan Photo Copy Gujrat.</p>
+      </div>
+    </section>
+    <section class="bottom">Knowledge is Power - We Prepare You to Lead</section>
+  </main>
+</body>
+</html>

@@ -27,6 +27,16 @@ window.AcademyData = {
   },
   "notices": [
     {
+      "title": "Admission Form Added",
+      "date": "Daily Update",
+      "body": "Printable admission form has been added in the Documents section."
+    },
+    {
+      "title": "Fee Receipt & Visiting Card Added",
+      "date": "Daily Update",
+      "body": "Printable fee receipt and academy visiting card are now available in the Documents section."
+    },
+    {
       "title": "Faculty Photos Added",
       "date": "Daily Update",
       "body": "Faculty photos and profiles from the uploaded faculty website file have been added to the website."

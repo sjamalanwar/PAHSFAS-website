@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fee Receipt - PAHSFAS</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .actions{max-width:1100px;margin:12px auto;display:flex;gap:10px;justify-content:flex-end}
+    .receipt{max-width:1100px;margin:18px auto;padding:14px;background:#fff;border:1px solid #111}
+    .head{display:grid;grid-template-columns:160px 1fr 220px;gap:10px;align-items:center;border-bottom:1px solid #111;padding-bottom:8px}
+    .head img{width:120px;height:auto}
+    .head h1{font-size:40px;line-height:1;margin:4px 0}
+    .head h2{font-size:23px;margin:0}
+    .head p{margin:0;font-weight:700}
+    table{width:100%;border-collapse:collapse}
+    td{border:1px solid #111;padding:8px;font-size:14px}
+    .cut{text-align:center;font-weight:700;margin:12px auto;max-width:1100px}
+    @media print {.actions,.topbar,footer{display:none}.receipt{margin:0;border:none}.cut{display:none}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="Academy Logo"><span>Prof Anwar Hussain Syed Fine Academy of Sciences</span></a>
+  </header>
+  <div class="actions">
+    <a class="btn" href="index.html">Back to Website</a>
+    <button class="btn primary" onclick="window.print()">Print Receipt</button>
+  </div>
+
+  <div class="receipt">
+    <div class="head">
+      <img src="assets/images/logo.png" alt="Logo">
+      <div>
+        <h2>Prof Anwar Hussain Syed</h2>
+        <h2>Fine Academy of Sciences</h2>
+        <h1>FEE RECEIPT</h1>
+        <p>Contact / WhatsApp: 03335439711</p>
+      </div>
+      <div>
+        <p><strong>Office Copy</strong></p>
+        <p>Receipt No.: __________________</p>
+        <p>Date: __________________</p>
+      </div>
+    </div>
+    <table>
+      <tr><td>Student Name</td><td>Father Name</td></tr>
+      <tr><td>Class / Course</td><td>Month</td></tr>
+      <tr><td>Admission Fee</td><td>Monthly Fee</td></tr>
+      <tr><td>Registration Fee</td><td>Previous Balance</td></tr>
+      <tr><td>Discount / Concession</td><td>Total Fee</td></tr>
+      <tr><td>Received Amount</td><td>Balance</td></tr>
+      <tr><td>Payment Mode: [ ] Cash  [ ] Online  [ ] Bank</td><td>Bank / Transaction No.</td></tr>
+      <tr><td colspan="2">Amount in Words</td></tr>
+      <tr><td colspan="2"><em>Note: This receipt is valid only with authorized signature/stamp. Fee once paid is non-refundable according to academy policy.</em></td></tr>
+      <tr><td>Received By</td><td>Signature / Stamp</td></tr>
+    </table>
+  </div>
+
+  <div class="cut">---------------------------- Cut Here ----------------------------</div>
+
+  <div class="receipt">
+    <div class="head">
+      <img src="assets/images/logo.png" alt="Logo">
+      <div>
+        <h2>Prof Anwar Hussain Syed</h2>
+        <h2>Fine Academy of Sciences</h2>
+        <h1>FEE RECEIPT</h1>
+        <p>Contact / WhatsApp: 03335439711</p>
+      </div>
+      <div>
+        <p><strong>Student Copy</strong></p>
+        <p>Receipt No.: __________________</p>
+        <p>Date: __________________</p>
+      </div>
+    </div>
+    <table>
+      <tr><td>Student Name</td><td>Father Name</td></tr>
+      <tr><td>Class / Course</td><td>Month</td></tr>
+      <tr><td>Admission Fee</td><td>Monthly Fee</td></tr>
+      <tr><td>Registration Fee</td><td>Previous Balance</td></tr>
+      <tr><td>Discount / Concession</td><td>Total Fee</td></tr>
+      <tr><td>Received Amount</td><td>Balance</td></tr>
+      <tr><td>Payment Mode: [ ] Cash  [ ] Online  [ ] Bank</td><td>Bank / Transaction No.</td></tr>
+      <tr><td colspan="2">Amount in Words</td></tr>
+      <tr><td colspan="2"><em>Note: This receipt is valid only with authorized signature/stamp. Fee once paid is non-refundable according to academy policy.</em></td></tr>
+      <tr><td>Received By</td><td>Signature / Stamp</td></tr>
+    </table>
+    <p style="text-align:center;margin:10px 0 2px 0">Address: Khursheed Colony, Street No. 3, Bhimber Road, near Government Zamindar College, Gujrat</p>
+  </div>
+</body>
+</html>

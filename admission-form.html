@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admission Form - PAHSFAS</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .doc-wrap{max-width:1100px;margin:24px auto;padding:16px;background:#fff;border:1px solid #111}
+    .doc-head{display:grid;grid-template-columns:140px 1fr 140px;gap:12px;align-items:center;border-bottom:1px solid #111;padding-bottom:10px}
+    .doc-head img{width:120px;height:auto}
+    .doc-head h1{font-size:38px;line-height:1;margin:6px 0}
+    .doc-head h2{font-size:24px;margin:0}
+    .doc-head p{margin:0;font-weight:700}
+    .doc-box{border:1px solid #111;height:120px;display:flex;align-items:center;justify-content:center;font-weight:700}
+    table{width:100%;border-collapse:collapse;margin-top:8px}
+    th,td{border:1px solid #111;padding:6px 8px;font-size:14px;text-align:left;vertical-align:top}
+    .section-title{background:#f3f3f3;font-weight:800}
+    .actions{max-width:1100px;margin:12px auto;display:flex;gap:10px;justify-content:flex-end}
+    @media print {.actions,.topbar,footer{display:none}.doc-wrap{margin:0;border:none}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img src="assets/images/logo.png" alt="Academy Logo"><span>Prof Anwar Hussain Syed Fine Academy of Sciences</span></a>
+  </header>
+  <div class="actions">
+    <a class="btn" href="index.html">Back to Website</a>
+    <button class="btn primary" onclick="window.print()">Print Form</button>
+  </div>
+  <div class="doc-wrap">
+    <div class="doc-head">
+      <img src="assets/images/logo.png" alt="Logo">
+      <div>
+        <h2>Prof Anwar Hussain Syed</h2>
+        <h2>Fine Academy of Sciences</h2>
+        <h1>ADMISSION FORM</h1>
+        <p>Contact / WhatsApp: 03335439711</p>
+      </div>
+      <div class="doc-box">Student Photo</div>
+    </div>
+
+    <table>
+      <tr class="section-title"><td colspan="4">Office / Admission Details</td></tr>
+      <tr><td>Admission No.</td><td></td><td>Admission Date</td><td></td></tr>
+      <tr><td>Session</td><td></td><td>Batch / Timing</td><td></td></tr>
+
+      <tr class="section-title"><td colspan="4">Student Information</td></tr>
+      <tr><td>Student Name</td><td></td><td>Gender</td><td></td></tr>
+      <tr><td>Date of Birth</td><td></td><td>B-Form / CNIC No.</td><td></td></tr>
+      <tr><td>Current Class</td><td></td><td>School / College</td><td></td></tr>
+      <tr><td>Student Mobile</td><td></td><td>WhatsApp No.</td><td></td></tr>
+      <tr><td>Complete Address</td><td colspan="3"></td></tr>
+
+      <tr class="section-title"><td colspan="4">Course / Subject Required</td></tr>
+      <tr><td>Course / Class</td><td></td><td>Subjects</td><td></td></tr>
+      <tr><td>Preparation Type</td><td></td><td>Mode</td><td></td></tr>
+      <tr><td>Preferred Timing</td><td></td><td>Teacher Name</td><td></td></tr>
+      <tr><td>Monthly Fee</td><td></td><td>Discount / Concession</td><td></td></tr>
+
+      <tr class="section-title"><td colspan="4">Parents / Guardian Information</td></tr>
+      <tr><td>Father Name</td><td></td><td>Father CNIC</td><td></td></tr>
+      <tr><td>Father Occupation</td><td></td><td>Father Mobile</td><td></td></tr>
+      <tr><td>Mother Name</td><td></td><td>Mother Mobile</td><td></td></tr>
+      <tr><td>Guardian Name</td><td></td><td>Relation with Student</td><td></td></tr>
+      <tr><td>Emergency Contact</td><td></td><td>Parent WhatsApp</td><td></td></tr>
+
+      <tr class="section-title"><td colspan="4">Reference / Information Source</td></tr>
+      <tr><td>How did the student know about the academy?</td><td colspan="3">[ ] Friend  [ ] Teacher  [ ] Student  [ ] Facebook  [ ] WhatsApp  [ ] Pamphlet/Banner  [ ] Other</td></tr>
+      <tr><td>Reference Person Name</td><td></td><td>Reference Contact No.</td><td></td></tr>
+      <tr><td>Relation / Source Detail</td><td></td><td>Remarks</td><td></td></tr>
+
+      <tr class="section-title"><td colspan="4">Declaration</td></tr>
+      <tr><td colspan="4">I confirm that the above information is correct. I will follow the rules, discipline, fee schedule, attendance policy, and academic instructions of the academy.</td></tr>
+      <tr><td>Student Signature:</td><td>Parent / Guardian Signature:</td><td colspan="2">Received By:</td></tr>
+
+      <tr class="section-title"><td colspan="4">For Office Use Only</td></tr>
+      <tr><td>Registration Fee</td><td></td><td>First Month Fee</td><td></td></tr>
+      <tr><td>Payment Status</td><td></td><td>Receipt No.</td><td></td></tr>
+      <tr><td>Admission Approved By</td><td></td><td>Date</td><td></td></tr>
+    </table>
+  </div>
+  <footer><p>Quality Education | Concept-Based Learning | Regular Tests | Digital Learning Support</p></footer>
+</body>
+</html>
