@@ -473,20 +473,20 @@ window.AcademyData = {
       "a": "Open the Fee Packages + Policy PDF in the Documents section for complete and updated fee details."
     },
     {
-      "q": "Can I contact the academy on WhatsApp?",
-      "a": "Yes, you can contact the academy directly on WhatsApp using the website buttons."
-    },
-    {
-      "q": "Are fee and discipline policies available online?",
-      "a": "Yes, both policy documents are available in the Documents section for download."
+      "q": "Is there an online admission option for students outside Gujrat?",
+      "a": "Yes. Students can submit the Online Admission Form and academy administration will contact them for guidance and next steps."
     },
     {
       "q": "Can parents/guardians discuss progress with teachers?",
       "a": "Yes. Parents can contact the academy office and schedule a discussion or meeting during office hours."
     },
     {
-      "q": "Is there an online admission option for students outside Gujrat?",
-      "a": "Yes. Students can submit the Online Admission Form and academy administration will contact them for guidance and next steps."
+      "q": "Can I contact the academy on WhatsApp?",
+      "a": "Yes, you can contact the academy directly on WhatsApp using the website buttons."
+    },
+    {
+      "q": "Are fee and discipline policies available online?",
+      "a": "Yes, both policy documents are available in the Documents section for download."
     }
   ],
   "gallery": [
