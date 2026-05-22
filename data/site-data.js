@@ -278,11 +278,11 @@ window.AcademyData = {
       "poster": "assets/images/faculty-posters/prof_sajad_cheema_uploaded_poster.jpg"
     },
     {
-      "name": "Prof. Sheraz Butt",
-      "subject": "Commerce / I.Com / Business Studies",
+      "name": "Sheraz Khalid",
+      "subject": "Business Administration / Accounting & Finance",
       "role": "Faculty Member",
       "photo": "assets/images/faculty/prof_sheraz_butt.jpg",
-      "details": "M.A Commerce with 22 years of teaching experience. Experienced commerce teacher for accounting, business studies, economics and I.Com level guidance.",
+      "details": "Qualification: M.Phil in Business Administration, MBA Accounting and Finance, ACCA. Experience: more than 15 years.",
       "poster": "assets/images/faculty-posters/prof_sheraz_butt_poster.jpg"
     }
   ],
@@ -373,8 +373,8 @@ window.AcademyData = {
       "image": "assets/images/faculty-posters/prof_sajad_cheema_35_years_poster.jpg"
     },
     {
-      "title": "Prof. Sheraz Butt",
-      "subject": "Commerce — M.A Commerce, 22 years teaching experience",
+      "title": "Sheraz Khalid",
+      "subject": "M.Phil Business Administration, MBA Accounting and Finance, ACCA — 15+ years experience",
       "image": "assets/images/faculty-posters/prof_sheraz_butt_poster.jpg"
     }
   ],
