@@ -425,10 +425,10 @@ window.AcademyData = {
       "fee": "Editable"
     },
     {
-      "package": "Fee Packages PDF",
+      "package": "Fee Packages + Policy PDF",
       "details": "Official complete fee list",
       "fee": "Download",
-      "link": "docs/academy-fee-packages.pdf"
+      "link": "docs/academy-fee-packages-with-policy.pdf"
     }
   ],
   "admission": {
