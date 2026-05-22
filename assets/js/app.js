@@ -47,7 +47,7 @@ function render(){
   $("posterList").innerHTML = (data.facultyPosters || []).map(p => `
     <article class="poster-card"><img src="${esc(p.image)}" alt="${esc(p.title)}"><h3>${esc(p.title)}</h3><p>${esc(p.subject)}</p></article>`).join("");
 
-  $("feeList").innerHTML = (data.fees || []).map(f => `<article class="card"><p class="meta">${esc(f.details)}</p><h3>${esc(f.package)}</h3><p><strong>${esc(f.fee)}</strong></p></article>`).join("");
+  $("feeList").innerHTML = (data.fees || []).map(f => `<article class="card"><p class="meta">${esc(f.details)}</p><h3>${esc(f.package)}</h3><p><strong>${esc(f.fee)}</strong></p>${f.link ? `<p><a class="btn" href="${esc(f.link)}" target="_blank" rel="noopener">Open PDF</a></p>` : ""}</article>`).join("");
   $("processList").innerHTML = (data.admission?.process || []).map(x => `<li>${esc(x)}</li>`).join("");
   $("reqList").innerHTML = (data.admission?.requirements || []).map(x => `<li>${esc(x)}</li>`).join("");
   $("galleryList").innerHTML = (data.gallery || []).map(g => `<figure><img src="${esc(g.image)}" alt="${esc(g.title)}"><figcaption>${esc(g.title)}</figcaption></figure>`).join("");

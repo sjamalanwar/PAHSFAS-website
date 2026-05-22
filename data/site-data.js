@@ -423,6 +423,12 @@ window.AcademyData = {
       "package": "PMS / CSS Foundation",
       "details": "Competitive exam preparation",
       "fee": "Editable"
+    },
+    {
+      "package": "Fee Packages PDF",
+      "details": "Official complete fee list",
+      "fee": "Download",
+      "link": "docs/academy-fee-packages.pdf"
     }
   ],
   "admission": {
