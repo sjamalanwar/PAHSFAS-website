@@ -449,9 +449,11 @@ window.AcademyData = {
     ]
   },
   "officeHours": [
-    "Monday to Saturday: 8:00 AM - 8:00 PM",
-    "Sunday: By prior appointment",
-    "Online admission support: 24/7 via WhatsApp"
+    "Monday to Friday: 8:00 AM - 8:30 PM",
+    "Saturday: 9:00 AM - 6:00 PM",
+    "Sunday: By prior appointment only",
+    "Office break: 1:30 PM - 2:30 PM",
+    "Online admission and WhatsApp support: 24/7"
   ],
   "faqs": [
     {
@@ -463,12 +465,28 @@ window.AcademyData = {
       "a": "Student name, father name, class, subject selection, contact number, and previous school/college details are required."
     },
     {
+      "q": "Which classes and programs are offered at the academy?",
+      "a": "Academy offers 9th, 10th, Pre First Year, First/Second Year, O/A Level, and support for BS, M.Phil, PhD, PMS and CSS foundation."
+    },
+    {
+      "q": "How can I know exact fee details?",
+      "a": "Open the Fee Packages + Policy PDF in the Documents section for complete and updated fee details."
+    },
+    {
       "q": "Can I contact the academy on WhatsApp?",
       "a": "Yes, you can contact the academy directly on WhatsApp using the website buttons."
     },
     {
       "q": "Are fee and discipline policies available online?",
       "a": "Yes, both policy documents are available in the Documents section for download."
+    },
+    {
+      "q": "Can parents/guardians discuss progress with teachers?",
+      "a": "Yes. Parents can contact the academy office and schedule a discussion or meeting during office hours."
+    },
+    {
+      "q": "Is there an online admission option for students outside Gujrat?",
+      "a": "Yes. Students can submit the Online Admission Form and academy administration will contact them for guidance and next steps."
     }
   ],
   "gallery": [
