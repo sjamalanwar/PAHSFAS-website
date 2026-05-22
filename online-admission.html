@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online Admission Form - PAHSFAS</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .form-wrap{max-width:980px;margin:28px auto;padding:24px;background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 14px 32px rgba(3,25,65,.08)}
+    .form-intro{margin-bottom:16px}
+    .admission-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .field{display:flex;flex-direction:column;gap:6px}
+    .field.full{grid-column:1/-1}
+    label{font-weight:800;color:var(--navy)}
+    input,select,textarea{border:1px solid var(--line);border-radius:12px;padding:12px 12px;font:inherit}
+    textarea{min-height:96px;resize:vertical}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+    .help{font-size:14px;color:var(--muted);margin-top:8px}
+    .success{display:none;margin-top:14px;padding:12px 14px;border-radius:12px;border:1px solid #b7e6bf;background:#ecfff0;color:#0b6622;font-weight:700}
+    @media(max-width:760px){.admission-grid{grid-template-columns:1fr}.form-wrap{margin:16px;padding:16px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo.png" alt="Academy Logo">
+      <span>Prof Anwar Hussain Syed Fine Academy of Sciences</span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="admission-form.html">Printable Form</a>
+    </nav>
+  </header>
+
+  <main class="section" style="padding-top:28px">
+    <div class="section-title">
+      <p>Admission</p>
+      <h2>Online Admission Form</h2>
+    </div>
+
+    <div class="form-wrap">
+      <p class="form-intro">Submit this form online. After clicking submit, your details will be prepared for WhatsApp delivery to academy administration.</p>
+
+      <form id="onlineAdmissionForm">
+        <div class="admission-grid">
+          <div class="field">
+            <label for="studentName">Student Name *</label>
+            <input id="studentName" name="studentName" required>
+          </div>
+          <div class="field">
+            <label for="fatherName">Father Name *</label>
+            <input id="fatherName" name="fatherName" required>
+          </div>
+
+          <div class="field">
+            <label for="gender">Gender *</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="dob">Date of Birth</label>
+            <input id="dob" name="dob" type="date">
+          </div>
+
+          <div class="field">
+            <label for="currentClass">Current Class *</label>
+            <input id="currentClass" name="currentClass" placeholder="e.g. 10th, 1st Year, O Level" required>
+          </div>
+          <div class="field">
+            <label for="subjects">Subjects *</label>
+            <input id="subjects" name="subjects" placeholder="e.g. Physics, Chemistry, Biology" required>
+          </div>
+
+          <div class="field">
+            <label for="studentPhone">Student Mobile *</label>
+            <input id="studentPhone" name="studentPhone" type="tel" required>
+          </div>
+          <div class="field">
+            <label for="whatsappNo">WhatsApp Number *</label>
+            <input id="whatsappNo" name="whatsappNo" type="tel" required>
+          </div>
+
+          <div class="field">
+            <label for="guardianPhone">Parent/Guardian Mobile *</label>
+            <input id="guardianPhone" name="guardianPhone" type="tel" required>
+          </div>
+          <div class="field">
+            <label for="schoolCollege">School/College</label>
+            <input id="schoolCollege" name="schoolCollege">
+          </div>
+
+          <div class="field">
+            <label for="timing">Preferred Timing</label>
+            <input id="timing" name="timing" placeholder="Morning / Evening">
+          </div>
+          <div class="field">
+            <label for="source">How did you hear about academy?</label>
+            <input id="source" name="source" placeholder="Friend, Facebook, Poster, etc.">
+          </div>
+
+          <div class="field full">
+            <label for="address">Address *</label>
+            <textarea id="address" name="address" required></textarea>
+          </div>
+
+          <div class="field full">
+            <label for="remarks">Additional Notes</label>
+            <textarea id="remarks" name="remarks"></textarea>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn primary" type="submit">Submit Online</button>
+          <a class="btn" href="index.html">Back to Website</a>
+        </div>
+        <p class="help">Required fields are marked with *.</p>
+        <div id="successMsg" class="success">Form prepared successfully. WhatsApp will open now to send details.</div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Prof Anwar Hussain Syed Fine Academy of Sciences. All rights reserved.</p>
+  </footer>
+
+  <script>
+    (function(){
+      var form = document.getElementById('onlineAdmissionForm');
+      var successMsg = document.getElementById('successMsg');
+      var academyWhatsapp = '923335439711';
+
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      function val(id){ return (document.getElementById(id).value || '').trim(); }
+
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        if(!form.checkValidity()){
+          form.reportValidity();
+          return;
+        }
+
+        var payload = {
+          submittedAt: new Date().toISOString(),
+          studentName: val('studentName'),
+          fatherName: val('fatherName'),
+          gender: val('gender'),
+          dob: val('dob'),
+          currentClass: val('currentClass'),
+          subjects: val('subjects'),
+          studentPhone: val('studentPhone'),
+          whatsappNo: val('whatsappNo'),
+          guardianPhone: val('guardianPhone'),
+          schoolCollege: val('schoolCollege'),
+          timing: val('timing'),
+          source: val('source'),
+          address: val('address'),
+          remarks: val('remarks')
+        };
+
+        var existing = [];
+        try { existing = JSON.parse(localStorage.getItem('pahsfasOnlineAdmissions') || '[]'); } catch (_) {}
+        existing.push(payload);
+        localStorage.setItem('pahsfasOnlineAdmissions', JSON.stringify(existing));
+
+        var lines = [
+          '*New Online Admission Request*',
+          'Student Name: ' + payload.studentName,
+          'Father Name: ' + payload.fatherName,
+          'Gender: ' + payload.gender,
+          'DOB: ' + (payload.dob || '-'),
+          'Class: ' + payload.currentClass,
+          'Subjects: ' + payload.subjects,
+          'Student Mobile: ' + payload.studentPhone,
+          'WhatsApp: ' + payload.whatsappNo,
+          'Guardian Mobile: ' + payload.guardianPhone,
+          'School/College: ' + (payload.schoolCollege || '-'),
+          'Preferred Timing: ' + (payload.timing || '-'),
+          'Source: ' + (payload.source || '-'),
+          'Address: ' + payload.address,
+          'Remarks: ' + (payload.remarks || '-')
+        ];
+
+        var waUrl = 'https://wa.me/' + academyWhatsapp + '?text=' + encodeURIComponent(lines.join('\n'));
+        successMsg.style.display = 'block';
+        window.open(waUrl, '_blank');
+      });
+    })();
+  </script>
+</body>
+</html>
