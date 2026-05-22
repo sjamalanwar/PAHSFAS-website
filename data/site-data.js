@@ -281,7 +281,7 @@ window.AcademyData = {
       "name": "Sheraz Khalid",
       "subject": "Business Administration / Accounting & Finance",
       "role": "Faculty Member",
-      "photo": "assets/images/faculty/prof_sheraz_butt.jpg",
+      "photo": "assets/images/faculty/sheraz_khalid.jpg",
       "details": "Qualification: M.Phil in Business Administration, MBA Accounting and Finance, ACCA. Experience: more than 15 years.",
       "poster": "assets/images/faculty-posters/prof_sheraz_butt_poster.jpg"
     }
@@ -375,7 +375,7 @@ window.AcademyData = {
     {
       "title": "Sheraz Khalid",
       "subject": "M.Phil Business Administration, MBA Accounting and Finance, ACCA — 15+ years experience",
-      "image": "assets/images/faculty-posters/prof_sheraz_butt_poster.jpg"
+      "image": "assets/images/faculty-posters/sheraz_khalid_poster.jpg"
     }
   ],
   "fees": [
