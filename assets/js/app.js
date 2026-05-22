@@ -50,6 +50,16 @@ function render(){
   $("feeList").innerHTML = (data.fees || []).map(f => `<article class="card"><p class="meta">${esc(f.details)}</p><h3>${esc(f.package)}</h3><p><strong>${esc(f.fee)}</strong></p>${f.link ? `<p><a class="btn" href="${esc(f.link)}" target="_blank" rel="noopener">Open PDF</a></p>` : ""}</article>`).join("");
   $("processList").innerHTML = (data.admission?.process || []).map(x => `<li>${esc(x)}</li>`).join("");
   $("reqList").innerHTML = (data.admission?.requirements || []).map(x => `<li>${esc(x)}</li>`).join("");
+  if ($("faqList")) {
+    $("faqList").innerHTML = (data.faqs || []).map(f => `
+      <details class="faq-item">
+        <summary>${esc(f.q)}</summary>
+        <p>${esc(f.a)}</p>
+      </details>`).join("");
+  }
+  if ($("officeHours")) {
+    $("officeHours").innerHTML = (data.officeHours || []).map(x => `<li>${esc(x)}</li>`).join("");
+  }
   $("galleryList").innerHTML = (data.gallery || []).map(g => `<figure><img src="${esc(g.image)}" alt="${esc(g.title)}"><figcaption>${esc(g.title)}</figcaption></figure>`).join("");
 
   if ($("facebookName")) $("facebookName").textContent = data.social?.facebookPage?.name || "Facebook Page";
@@ -61,7 +71,18 @@ function render(){
   $("email").textContent = data.contact?.email || "";
   const firstPhone = (data.contact?.phone || [""])[0].replace(/\D/g,"");
   $("callBtn").href = firstPhone ? `tel:${firstPhone}` : "#";
-  $("whatsappLink").href = data.contact?.whatsapp ? `https://wa.me/92${data.contact.whatsapp.replace(/\D/g,"").replace(/^0/,"")}` : "#";
+  const whatsappHref = data.contact?.whatsapp ? `https://wa.me/92${data.contact.whatsapp.replace(/\D/g,"").replace(/^0/,"")}` : "#";
+  $("whatsappLink").href = whatsappHref;
+  if ($("fabWhatsApp")) $("fabWhatsApp").href = whatsappHref;
   $("mapBtn").href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(data.contact?.mapQuery || data.contact?.address || "")}`;
+
+  if ($("backToTop")) {
+    const onScroll = () => {
+      $("backToTop").style.display = window.scrollY > 300 ? "flex" : "none";
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+    $("backToTop").addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  }
 }
 render();

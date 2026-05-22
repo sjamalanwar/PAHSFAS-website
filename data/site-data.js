@@ -448,6 +448,29 @@ window.AcademyData = {
       "Receive fee receipt and class guidance"
     ]
   },
+  "officeHours": [
+    "Monday to Saturday: 8:00 AM - 8:00 PM",
+    "Sunday: By prior appointment",
+    "Online admission support: 24/7 via WhatsApp"
+  ],
+  "faqs": [
+    {
+      "q": "How can I apply for admission?",
+      "a": "Use the Online Admission Form on this website or visit the academy office with required details."
+    },
+    {
+      "q": "What documents are required at admission time?",
+      "a": "Student name, father name, class, subject selection, contact number, and previous school/college details are required."
+    },
+    {
+      "q": "Can I contact the academy on WhatsApp?",
+      "a": "Yes, you can contact the academy directly on WhatsApp using the website buttons."
+    },
+    {
+      "q": "Are fee and discipline policies available online?",
+      "a": "Yes, both policy documents are available in the Documents section for download."
+    }
+  ],
   "gallery": [
     {
       "title": "Academy Poster 1",
